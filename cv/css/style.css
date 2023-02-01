@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/Background.jpg");
+    margin: 0px;
+}
+
+a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.top {
+    height: 400px;
+    width: 100%;
+    font-family: 'Itim';
+    font-size: 22px;
+    color: grey;
+    text-align: center;
+}
+
+.middle {
+    background-color: white;
+    padding: 10px;
+    font-family: 'Oswald';
+    font-size: 22px;
+    color: lightblue;
+    text-align: center;
+}
+
+.bottom {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.container {
+    column-count: 2;
+}
+
+dt {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    position: absolute;
+}
+
+.image {
+    float: left;
+}
+
+.button {
+    text-align: center;
+    background-color: beige;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px 12px;
+    padding: 1px 15px 1px 15px;
+    border: 1px solid black;
+}
